@@ -4,7 +4,7 @@
    description: A plugin that use for Collactions of books.
    Version: 1.0
    Author: Rohit Gupta
-   Author URI: http://rohitgupta.netlify.app/
+   Author URI: https://profiles.wordpress.org/rohitgupta3/
    License: GPL2
    */
 
