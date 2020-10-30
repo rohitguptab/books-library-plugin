@@ -1,0 +1,78 @@
+.books{list-style:none;padding:0;margin:0;width:75%}
+.books .book-item{margin:0 0 15px 0;padding:0;}
+.books .book-item .inner{display:flex;align-items:center}
+.books .book-item .inner .book-image{width:30%;}
+.books .book-item .inner .book-details{width:70%;padding-left:20px;}
+.books .book-item .inner .book-image .feature{width:100%;object-fit:cover;display:block;}
+.loading,
+.load-more{text-align:center}
+.loading{display:flex;justify-content:center;align-items:center;height:100%}
+.books .book-item .inner .book-details .buy{display:flex;align-items:center}
+.books .book-item .inner .book-details .buy .price{width:80%;width:calc(100% - 110px);display:flex;align-items:center;font-size:22px;color:#0c547f}
+.books .book-item .inner .book-details .buy .button{width:100px;background:#0c547f;padding:5px 5px;text-align:center;color:#fff;text-decoration:none;font-size:14px;text-transform:uppercase;border:1px solid #0c547f!important;}
+.books .book-item .inner .book-details .buy .price svg{margin-right:10px}
+.books .book-item .inner .book-details .title{margin:0;font-size:28px;font-weight:500;margin-bottom:10px;line-height:30px;text-align: left;}
+.books .book-item .inner .book-details .author{margin-bottom:5px;font-size:14px;}
+.books .book-item .inner .book-details .details{margin:10px 0;font-size:14px;}
+.books .book-item .inner .book-details .author strong{width:80px;display:inline-block;}
+#react-blog-app{display:flex;flex-wrap:wrap;margin:30px 0}
+#react-blog-app .books-filter{list-style:none;padding:0 20px 0 0;margin:0;width:25%;box-sizing:border-box}
+.books-filter li{margin-bottom:20px}
+.books-filter li input,
+.books-filter li select{width:100%;height:40px;padding:0 10px;outline:none}
+.books-filter li label{font-weight:600;font-size:14px;margin-bottom:5px;display:block}
+.books-filter li.price input{display:inline-block;width:100px}
+.books-filter li.price .price-inner{display:flex;justify-content:space-between;align-items:center}
+.no-data{display:flex;justify-content:center;font-size:24px;font-weight:600;flex-wrap:wrap}
+.no-data svg{display:block;width:60px;height:60px;margin-bottom:20px}
+.no-data strong{display:block;width:100%;text-align:center;font-size:24px;color:red}
+.no-data p{display:block;width:100%;text-align:center;font-size:14px;color:#000;font-weight:normal}
+.books .book-item .inner .book-details .author span::after{content:","}
+.books .book-item .inner .book-details .author span{margin-right:5px}
+.books .book-item .inner .book-details .author span:last-child{margin:0}
+.books .book-item .inner .book-details .author span:last-child::after{display:none}
+.books .book-item .inner .book-details .rating span{font-size:30px!important;line-height:30px;}
+.books-filter li .rating span{font-size:40px!important;line-height:40px;}
+.books-filter li.rating-lable{display:flex;flex-wrap:wrap;align-items:center}
+.books-filter li.rating-lable label{width:100%}
+.books-filter li.rating-lable button{width:50px;padding:6px 5px;height:auto;background:#0c547f;color:#fff;border:none;font-size:12px;cursor:pointer;display:inline-block;vertical-align:middle;}
+.books-filter li.rating-lable .rating{width:80%;width:calc(100% - 50px);display:inline-block;vertical-align:middle;}
+#react-blog-app .books-filter.disable{position:relative}
+#react-blog-app .books-filter.disable::after{content:"";position:absolute;top:0;bottom:0;left:0;right:0}
+.load-more{margin:50px 0 20px 0;}
+.load-more button{background:#0c547f;padding:10px 20px;text-align:center;color:#fff;text-decoration:none;font-size:16px;cursor:pointer;text-transform:uppercase;border:1px solid #0c547f!important;border-radius:0;}
+.books .book-item .inner .book-details .rating{margin-bottom:10px}
+.load-more button:hover,
+.books .book-item .inner .book-details .buy .button:hover{background:none;color:#0c547f}
+.books-library{padding:40px 0;box-shadow:0 0 8px 0 #00000026;background:#fff;flex-direction:column;align-items:center}
+.books-library .dashicons{font-size:60px;height:60px;color:#00527d;width:60px;margin-bottom:10px}
+.books-library h2{margin:0!important;font-size:35px!important;letter-spacing:2px;line-height:50px!important}
+.books-library p{margin:5px 0 10px 0!important;letter-spacing:1px}
+.books-filter li.reset button{width:100%;background:#0c547f;padding:12px 5px;text-align:center;color:#fff;text-decoration:none;font-size:14px;text-transform:uppercase;border:1px solid #0c547f!important;cursor:pointer;outline:none}
+.books-filter li.reset button:hover{background:none;color:#0c547f}
+.books .book-item .inner .book-image .no-image{height:350px;display:flex;justify-content:center;align-items:center;background:#0c547f;color:#fff;text-transform:uppercase}
+
+/* backend css */
+.book-layout{margin:0;padding:0;display:flex;flex-wrap:wrap}
+.book-layout li{margin-bottom:30px;padding-bottom:30px;cursor:pointer}
+.book-layout li svg{width:100%!important;height:auto}
+.book-layout li lable{font-size:16px;margin-bottom:10px;display:block;padding-bottom:7px;font-weight:600;color:#333}
+.book-layout li.active svg rect, .book-layout li.active svg path, .book-layout li.active svg text{fill:#00527d}
+
+/* layout-2 css */
+#react-blog-app[data-layout="layout-2"] .books-filter{width:100%;padding:0;display:flex;flex-wrap:wrap;margin:0 -10px;margin-bottom:20px}
+#react-blog-app[data-layout="layout-2"] .books{width:100%}
+#react-blog-app[data-layout="layout-2"] .books-filter li{width:33.33%;padding:0 10px;box-sizing:border-box}
+
+/* layout-3 css */
+#react-blog-app[data-layout="layout-3"] .books{width:100%}
+
+/* layout-4 css */
+#react-blog-app[data-layout="layout-4"] .books{width:auto;display:flex;flex-wrap:wrap;margin:0 -20px;}
+#react-blog-app[data-layout="layout-4"] .books .book-item .inner .book-image{width:100%;margin-bottom:20px;}
+#react-blog-app[data-layout="layout-4"] .books .book-item .inner{flex-wrap:wrap;}
+#react-blog-app[data-layout="layout-4"] .books .book-item .inner .book-image .feature{width:auto;}
+#react-blog-app[data-layout="layout-4"] .books .book-item .inner .book-details{width:100%;padding:0;}
+#react-blog-app[data-layout="layout-4"] .books .book-item{width:50%;padding:0 20px;margin-bottom: 40px;}
+#react-blog-app[data-layout="layout-4"] .books.loading-data{width:100%!important;display:flex;justify-content:center}
+.blue-color{color:#00527d}

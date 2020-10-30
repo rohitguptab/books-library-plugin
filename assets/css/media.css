@@ -1,0 +1,25 @@
+@media (max-width:1130px){
+	#react-blog-app .books-filter{width:100%;margin-bottom:30px!important;padding:0;}
+	.books{width:100%;}
+	.books-filter li.price{width:250px;display:inline-block;vertical-align:top;}
+	.books-filter li.rating-lable{width:70%;width:calc(100% - 250px);display:inline-block;vertical-align:top;padding-left:30px;}
+	.books .book-item .inner .book-details .title{font-size:22px;margin-bottom:0;}
+	.books .book-item .inner .book-details .rating{margin-bottom:5px;}
+	.books .book-item .inner .book-details .details{margin:5px 0;}
+	.books .book-item .inner .book-details .buy .price{font-size:17px;}
+	.books .book-item .inner .book-details .rating span{font-size:22px!important;line-height:22px;}
+	#react-blog-app[data-layout="layout-2"] .books-filter li{width:100%}
+	#react-blog-app[data-layout="layout-2"] .books-filter li.price{width:250px}
+	#react-blog-app[data-layout="layout-2"] .books-filter li.rating-lable{width:70%;width:calc(100% - 250px)}
+	#react-blog-app[data-layout="layout-2"] .books-filter{margin:0}
+	#react-blog-app[data-layout="layout-2"] .books-filter li{padding:0}
+}
+@media (max-width:768px){
+	.books .book-item .inner .book-image{width:100%;}
+	.books .book-item .inner .book-details{width:100%;padding:20px 20px;border: 1px solid #ede3e3;}
+	.books .book-item .inner{flex-wrap:wrap;}
+	.books-filter li.rating-lable{width:100%;padding:0;}
+	#react-blog-app[data-layout="layout-4"] .books .book-item{width:100%;}
+	#react-blog-app[data-layout="layout-4"] .books .book-item .inner .book-details{border:none;}
+	#react-blog-app[data-layout="layout-2"] .books-filter li.rating-lable{width:100%}
+}

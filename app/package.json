@@ -1,0 +1,30 @@
+{
+  "name": "gutenberg-block-static-jsx-example",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "main": "block.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "compression-webpack-plugin": "^3.1.0",
+    "cross-env": "^6.0.3",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "build": "cross-env BABEL_ENV=default NODE_ENV=production webpack",
+    "dev": "cross-env BABEL_ENV=default webpack --watch"
+  },
+  "dependencies": {
+    "@wordpress/api-fetch": "^3.8.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-images-upload": "^1.2.8",
+    "react-select": "^3.0.8",
+    "stars-rating": "^1.1.0"
+  }
+}

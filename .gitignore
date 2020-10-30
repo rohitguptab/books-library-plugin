@@ -1,0 +1,14 @@
+# Uploads directory
+# uploads
+
+#PHPStorm configurations
+.idea
+git node_modules
+composer.json
+composer.lock
+/.htaccess
+node_modules
+output.xml
+wp-content/uploads/
+vendor/
+/vendor
