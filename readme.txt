@@ -24,7 +24,7 @@ This is a Books Library plugin for Gutenberg block. Easily manager books data in
 * Front side with React.
 * Easily manage book data ( Add, Delete and Edit )
 * Filters by Name, Author, Publisher, Price, and Rating.
-* Start ratings.
+* Star ratings.
 
 
 == Installation  ==
